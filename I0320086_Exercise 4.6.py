@@ -1,17 +1,9 @@
 # strings
-
-needle = "HA"
-
-haystack = "Hellow World"
-
-
+needle = "lo"
+haystack = "Hello World"
 
 # check
-
 if needle in haystack:
-
     print(needle, "is present in the string", haystack)
-
 else:
-
-    print("Not found")
+    print ("Not found")
